@@ -1,15 +1,64 @@
-   <!DOCTYPE html>
-   <html lang="es">
+   <!DOCTYPE html> <html lang="es">
    <head>
        <meta charset="UTF-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>Pagina tonta de prueba</title>
-       <!-- <link rel="stylesheet" href="../css/estilos.css">  need to provide it -->
+       <title>Ticmas, proyecto final</title>
+       <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="css/estilos.css">
    </head>
    <body>
-	   <h1>gens una sumus</h1>
-	   no se me raj
-       <!-- <script src="../js/function.js"></script>  need to provide it -->
+<!-- ======================================================= -->
+<div class="barNav">
+	<a class="active" href="#seccInicio">Inicio </a>
+	<a href="#seccInfPers">Personal </a>
+	<a href="#seccExp">Experiencia </a>
+	<a href="#seccHab">Habilidades </a>
+</div>
+<!-- ======================================================= -->
+	   <div id="seccInicio"></div>
+<br><br>
+	   <h1>Juan Carlos Martinez Mangini --
+		   Curriculum vitae</h1>
+<!-- ======================================================= -->
+	   <button id="botonFoto">Mostrar/ocultar foto</button>
+	   <div id="divFoto">
+		   <img src="nero.jpg" width="460" height="306"></img>
+	   </div>
+	   <h2 id="seccInfPers">Informacion personal</h2>
+	   <span class="infpersEncab">Nombre:</span>
+	   Juan Carlos Martinez Mangini<br>
+	   <span class="infpersEncab">Nacionalidad:</span>
+	   Argentino<br>
+	   <span class="infpersEncab">Fecha de nacimiento:</span>
+	   29/5/1985<br>
+	   <span class="infpersEncab">DNI:</span>
+	   31591605<br>
+	   <span class="infpersEncab">CUIT:</span>
+	   20315916055<br>
+	   <span class="infpersEncab">Mail:</span>
+	   trullito@gmail.com<br>
+<!-- ======================================================= -->
+	   <h2 id="seccExp">Experiencia</h2>
+	   <ul>
+		   <li> <u>Relator deportivo (febrero de 2002-febrero de 2002)</u> Especializado en Salto en Alto. <span class="opcional" id="masRelator">A cargo de cubrir absolutamente todos los eventos organizados por los Bomberos Voluntarios de Pascal Achaval. </span><button onclick="onOffPuesto('masRelator','botonRelator')" id="botonRelator">Mas detalle</button></li>
+		   <li> <u>Abogado fallido (abril de 2001-enero de 2002)</u> Especializado en Ley de Familia. <span class="opcional" id="masAbogado">A cargo de todas las trapisondas de estudio juridico. </span><button onclick="onOffPuesto('masAbogado','botonAbogado')" id="botonAbogado">Mas detalle</button></li>
+	   </ul>
+
+<!-- ======================================================= -->
+	   <h2 id="seccHab">Habilidades</h2>
+	   <ul>
+		   <li>Disfruta 3 consecutivos sin que se la
+			   extraigan</li>
+		   <li>Abogado (2000, Free University of Zimbabwe)</li>
+		   <li>Dramaturgo, autor de las obras
+			   <ul>
+				   <li>"Los chanchos mueren de pie", puesta en escena en Isisoro</li>
+				   <li>"Puesta en escena en el Margarita Xirgu", puesta en escena en el Margarita Xirgu</li>
+			   </ul>
+	   </ul>
+<!-- ======================================================= -->
+
+       <script src="js/funcsAux.js"></script>
    </body>
    </html>
