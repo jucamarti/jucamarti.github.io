@@ -1,0 +1,56 @@
+/* Estilos para el CV
+*  Juan Carlos Martinez Mangini
+*  trabajo final Ticmas-primer curso */
+
+body {
+	margin: 10;
+	font-family: 'Tilt Neon', cursive;
+}
+
+/* Encabezamiento para info personal */
+.infpersEncab {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Contenidos optativos */
+.opcional {
+	display: none;
+	--primeraIter: 1;
+}
+
+/* Barra de navegacion */
+.barNav {
+	overflow: hidden;
+	background-color: #4d4f6a;
+	position: fixed;
+	top: 0px;
+}
+
+.barNav a {
+	float: left;
+	color: #d0d0d0;
+	text-align: left;
+	padding: 12px 24px;
+	text-decoration: none;
+	font-size: 26px;
+}
+
+.barNav a:hover {
+	background-color: #e0e0e0;
+	color: black;
+}
+
+.barNav a:active {
+	background-color: #05fA5e;
+	color: white;
+}
+	
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@2
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+
+font-family: 'Tilt Neon', cursive;
+*/
